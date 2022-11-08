@@ -2,10 +2,10 @@
  
 Pong game with WinForms
 Featuring:
-Pause
-Menu
-Restart
-Bonus dog
+pause,
+menu,
+restart,
+bonus dog
 
 ![image](https://user-images.githubusercontent.com/104844876/200564436-0467b148-b5ef-4a4d-83f9-6dfc5893dcda.png)
 
