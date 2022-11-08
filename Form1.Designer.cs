@@ -33,7 +33,6 @@
             this.Background = new System.Windows.Forms.Panel();
             this.SettingsPanel = new System.Windows.Forms.Panel();
             this.SettingsCloseButton = new System.Windows.Forms.Label();
-            this.SettingsText2 = new System.Windows.Forms.Label();
             this.SettingsText1 = new System.Windows.Forms.Label();
             this.MenuBox = new System.Windows.Forms.Panel();
             this.NewGameButton = new System.Windows.Forms.Label();
@@ -79,7 +78,6 @@
             // 
             this.SettingsPanel.BackColor = System.Drawing.Color.LightSteelBlue;
             this.SettingsPanel.Controls.Add(this.SettingsCloseButton);
-            this.SettingsPanel.Controls.Add(this.SettingsText2);
             this.SettingsPanel.Controls.Add(this.SettingsText1);
             this.SettingsPanel.Location = new System.Drawing.Point(213, 34);
             this.SettingsPanel.Name = "SettingsPanel";
@@ -98,23 +96,14 @@
             this.SettingsCloseButton.Text = "x";
             this.SettingsCloseButton.Click += new System.EventHandler(this.SettingsCloseButton_Click);
             // 
-            // SettingsText2
-            // 
-            this.SettingsText2.AutoSize = true;
-            this.SettingsText2.Location = new System.Drawing.Point(23, 71);
-            this.SettingsText2.Name = "SettingsText2";
-            this.SettingsText2.Size = new System.Drawing.Size(177, 17);
-            this.SettingsText2.TabIndex = 1;
-            this.SettingsText2.Text = "I`m not having sex with you";
-            // 
             // SettingsText1
             // 
             this.SettingsText1.AutoSize = true;
-            this.SettingsText1.Location = new System.Drawing.Point(25, 51);
+            this.SettingsText1.Location = new System.Drawing.Point(52, 61);
             this.SettingsText1.Name = "SettingsText1";
-            this.SettingsText1.Size = new System.Drawing.Size(175, 17);
+            this.SettingsText1.Size = new System.Drawing.Size(87, 17);
             this.SettingsText1.TabIndex = 0;
-            this.SettingsText1.Text = "Put your dick away, Walter";
+            this.SettingsText1.Text = "No settings?";
             // 
             // MenuBox
             // 
@@ -318,7 +307,6 @@
         private System.Windows.Forms.Label NewGameButton;
         private System.Windows.Forms.Label SettingsCloseButton;
         private System.Windows.Forms.Panel SettingsPanel;
-        private System.Windows.Forms.Label SettingsText2;
         private System.Windows.Forms.Label SettingsText1;
     }
 }
